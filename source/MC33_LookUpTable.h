@@ -13,7 +13,7 @@
 
 /*The second hexadecimal digit is the MC33 case number, the last two digits contain information
 about the position in the respective case array and the order of triangle vertices*/
-//const unsigned short int MC33_all_tables[2310] =
+const unsigned short int MC33_all_tables[2310] =
 {
  0x0000, 0x0885, 0x0886, 0x0895, 0x0883, 0x1816, 0x089D, 0x0943,//007
  0x0884, 0x0897, 0x1814, 0x0916, 0x0891, 0x094C, 0x091F, 0x048F,//015
@@ -512,4 +512,4 @@ Vertices order in triangles:
 /* 1*090#0257*[++--+-]*/0x1A35,0x1584,0x17B6,0x1190,0x123A,0x0385,
 /* 2*090#0257*[+--+-+]*/0x1965,0x121A,0x1B03,0x1B60,0x1690,0x0784,
 /* 3*090#0257*[--+++-]*/0x1945,0x17A6,0x13B2,0x1018,0x1178,0x01A7
-}//;
+};
